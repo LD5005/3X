@@ -1,7 +1,7 @@
 /* ! Base Style */
 
 
-body {font-family: 'Source Serif Pro', serif; font-size: 16px;}
+body {font-family: 'Source Serif Pro', serif; font-size: 16px; position: relative; scroll-behavior: smooth;}
 
 
 a{text-decoration: none;}
@@ -23,9 +23,6 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 }
 
-body {
-  scroll-behavior: smooth;
-}
 /* ! Header */
 
  header{
@@ -48,7 +45,7 @@ body {
 
 
 
-.logo{z-index: 1;
+.logo{z-index: 3;
 
 
 }
@@ -72,7 +69,7 @@ nav li a{
   font-size: 25px;
 }
 
-.hamburger{display:none;}
+.hamburger{display:none; z-index: 3}
 
 
 nav li .active{text-decoration: underline;}
@@ -81,7 +78,7 @@ nav li .active{text-decoration: underline;}
 @media (max-width: 768px) {
 
 
-.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
+.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px; z-index: 1}
 .nav li{display: block;}
 .nav li a{padding:15px 30px; font-size:20px }
 
@@ -103,7 +100,7 @@ nav li .active{text-decoration: underline;}
   right: 30px;
 }
 
-.hamburger span{background: #FFFFF0; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+.hamburger span{background: #FFFFF0; height: 3px; width: 100%; display: block; margin-bottom: 3px;}
 
 }
 /* ! Hero */
@@ -130,7 +127,7 @@ nav li .active{text-decoration: underline;}
 
 main {overflow: hidden !important}
 
-.hero_content h1 {color:#FFFFF0;}
+.hero_content h1 {color:#FFFFF0; z-index: 0 !important}
 
 
 
@@ -548,7 +545,7 @@ section{
 
 @media screen and (max-width: 360px){  
 
-  .hero_content h1 {position: relative;right: 7%; font-size: 55px }
+  .hero_content h1 {position: relative;right: 7%; font-size: 55px; z-index: 0 !important; }
 
 .freccia{ 
           visibility: hidden;
@@ -563,7 +560,7 @@ section{
 .freccia2{overflow:hidden;
           position: absolute;
           top:90%;
-          left: 45%;
+          left: 40%;
           visibility: visible;}           
                                      
 }
@@ -687,11 +684,11 @@ footer{
 
 
 .mdsign3 {position: absolute;
-          top:7%;
+          top:2%;
           left:0.001%;}
 
 .hero3{
-  height: 100vh;
+  height: 120vh;
   display: flex; width: 100%;align-items: center;
   background: #330066;
   background-size: cover;
@@ -702,13 +699,12 @@ footer{
 .hero_content3{
   
   position: relative;
-  bottom: 100px;
+  top: %;
   padding: 30px;
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
   padding: 30px;
-  bottom: -60px;
 
 
 
@@ -716,6 +712,8 @@ footer{
 
 .hero_content3 h1 {color:#FFFFF0;}
 
+#hero_content3 {position: relative;
+                bottom: 15%}
 
 
 /*! CONTAINER PLAYLIST*/
@@ -726,10 +724,7 @@ footer{
 display: flex;
 flex-wrap: wrap;
 position: relative;
-
-
-
-}
+top:25%;}
 
 
 .container_generi{
@@ -737,31 +732,16 @@ position: relative;
 display: flex;
 flex-wrap: wrap;
 position: relative;
-
-
-
 }
-
-
-
-
-
-
-
-
 
 
 .item{
 
 background: #FFFFF0 ;
 flex-basis: 20%;
-padding: 30px;
 border: 6px solid #330066;
-border-radius: 15px;
-padding: 45px;
-
-
-}
+border-radius: 20px;
+padding: 15px;}
 
 
 .item_ciccio{
@@ -769,14 +749,30 @@ padding: 45px;
 background: #330066;
 flex-basis: 20%;
 padding: 30px;
-
-padding: 45px;
-
-
-}
+padding: 45px;}
 
 
 
+
+.item p{
+
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+color: #330066 ;
+font-weight: bold;
+font-size: 30px;
+position: relative;
+top: 10%;}
+
+
+.album{position: relative;
+       left:10%;
+       top:4%;}
+
+.item_ciccio p{
+
+  font-size: 20px;
+  color: #FFFFF0;}
 
 
 
@@ -801,38 +797,19 @@ padding: 45px;
 .hero_content3 {
   position: relative;
  bottom: 70px;
-
 }
 
 
 }
-
-
-.item p{
-
-font-family: 'Fira Sans', sans-serif;
-text-align: center;
-color: #330066 ;
-font-weight: bold;
-font-size: 30px;
-
-
-}
-
-
-
-.item_ciccio p{
-
-  font-size: 20px;
-  
-
-  color: #FFFFF0;}
-
-
-}
-
-
 
 
 .footer_playlist{
-background: #FFFFF0}
+                  background: #FFFFF0;
+                  display: flex;
+                  height: 30vh;
+                  width: 100%;
+                  background-size: cover;
+                  align-items: center;
+                  position: absolute;
+                  bottom: 0;}
+
