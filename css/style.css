@@ -347,6 +347,15 @@ section{
          left: 71%;
          top: 50%  }
 
+
+
+.freccia{ overflow:hidden;
+          position: absolute;
+          top:80%;
+          left: 38%;
+           }
+
+
 }
 
 @media screen and (max-width: 480px){
@@ -497,7 +506,7 @@ section{
            }
                      
 .box h2             {position: absolute;
-                     font-size:60px; 
+                     font-size:50px; 
                      font-weight: bold;
                      color: #330066;
                      bottom: 51%;
@@ -508,7 +517,7 @@ section{
                   
 
 .box p              {color: #330066; 
-                    font-size: 25px;
+                    font-size: 20px;
                     position: absolute;
                     top:50%;
                     left: 6% !important;
@@ -529,8 +538,8 @@ section{
 
 .freccia{ overflow:hidden;
           position: absolute;
-          top:80%;
-          left: 30% !important;
+          top:70%;
+          left: 40% !important;
            }
 
 
