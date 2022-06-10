@@ -479,12 +479,12 @@ section{
          border-radius: 4px;
          position: absolute;
          left: 20%;
-         top: 140%  }
+         top: 120%  }
 
 }
 
 
-@media screen and (max-height: 475px){
+@media screen and (max-height: 280px){
 
 .box      {position: absolute;
            left;
@@ -523,7 +523,7 @@ section{
          border-radius: 4px;
          position: absolute;
          left: 20%;
-         top: 125%  }
+         top: 110%  }
 
 }
 
