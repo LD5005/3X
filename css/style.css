@@ -530,7 +530,7 @@ section{
 .freccia{ overflow:hidden;
           position: absolute;
           top:80%;
-          left: 40% !important;
+          left: 38% !important;
            }
 
 
@@ -554,7 +554,7 @@ section{
 .freccia2{overflow:hidden;
           position: absolute;
           top:90%;
-          left: 32.5%;
+          left: 33.5%;
           visibility: visible;}           
                                      
 }
