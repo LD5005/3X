@@ -683,6 +683,13 @@ footer{
 
 /* PLAYLIST*/
 
+
+
+
+.mdsign3 {position: absolute;
+          top:7%;
+          left:0.001%;}
+
 .hero3{
   height: 100vh;
   display: flex; width: 100%;align-items: center;
@@ -692,52 +699,140 @@ footer{
 
 
 
-
 .hero_content3{
+  
+  position: relative;
+  bottom: 100px;
   padding: 30px;
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
   padding: 30px;
-  font-size: 55px;
-  font-weight: bold;
+  bottom: -60px;
+
+
+
+}
+
+.hero_content3 h1 {color:#FFFFF0;}
+
+
+
+/*! CONTAINER PLAYLIST*/
+
+
+.container_annate{
+
+display: flex;
+flex-wrap: wrap;
+position: relative;
+
 
 
 }
 
-/*main {overflow: hidden}*/
 
-.hero_content3 h1 {color:#FFFFF0;
-                   position: absolute;
-                   top: 25%}
+.container_generi{
 
-
-.mdsign3 {position: absolute;
-          top:7%;
-          left:0.001%;}
+display: flex;
+flex-wrap: wrap;
+position: relative;
 
 
-.section3 > section{
-
-
-        overflow: hidden !important;
-        display: flex;
-        height: 100vh;
-        width: 100%;
-        background: #330066 !important;
-        background-size: cover;
-        align-items: center;
 
 }
 
-.box3
 
 
-footer.footer3_id{
 
-        display: flex;
-        height: 30vh;
-        width: 100%;
-        background: #FFFFF0 !important ;
-        background-size: cover;
-        align-items: center;}
+
+
+
+
+
+
+.item{
+
+background: #FFFFF0 ;
+flex-basis: 20%;
+padding: 30px;
+border: 6px solid #330066;
+border-radius: 15px;
+padding: 45px;
+
+
+}
+
+
+.item_ciccio{
+
+background: #330066;
+flex-basis: 20%;
+padding: 30px;
+
+padding: 45px;
+
+
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+
+.item{
+  flex-basis: 50%;
+  padding: 30px;
+}
+
+.item_ciccio{
+  flex-basis: 50%;
+  padding: 30px;
+}
+
+
+.hero3{
+  height: 210vh;
+
+}
+
+.hero_content3 {
+  position: relative;
+ bottom: 70px;
+
+}
+
+
+}
+
+
+.item p{
+
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+color: #330066 ;
+font-weight: bold;
+font-size: 30px;
+
+
+}
+
+
+
+.item_ciccio p{
+
+  font-size: 20px;
+  
+
+  color: #FFFFF0;}
+
+
+}
+
+
+
+
+.footer_playlist{
+background: #FFFFF0}
