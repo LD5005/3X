@@ -53,8 +53,8 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 nav {font-family: 'Fira Sans', sans-serif;
 transform: translateX(30%);
-width: 100%;
-z-index: 0;
+width: 60%;
+
 
 
 }
@@ -75,20 +75,25 @@ nav li a{
 nav li .active{text-decoration: underline;}
 
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
 
 
-.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px; z-index: 1}
+
+
+.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
 .nav li{display: block;}
 .nav li a{padding:15px 30px; font-size:20px }
+
+#header {z-index: 1}
+
+
+#main {z-index: 0}
+
+
 
 .nav--open{right: 0%;}
 
 .active { text-decoration: underline ;background-color:#FFFFF0 !important; color: #000;}
-
-
-
-
 
 
 .hamburger{
@@ -155,13 +160,13 @@ section{
 
 .freccia{ overflow:hidden;
           position: absolute;
-          top:80%;
+          top:35%;
           left: 43.5%;
            }
 
 .freccia2{overflow:hidden;
           position: absolute;
-          top:80%;
+          top:35%;
           left: 43.5%;
           visibility: hidden}
 
@@ -348,8 +353,8 @@ section{
 
 .freccia{ overflow:hidden;
           position: absolute;
-          top:80%;
-          left: 38%;
+          top:35%;
+          left: 39%;
            }
 
 
@@ -535,8 +540,8 @@ section{
 
 .freccia{ overflow:hidden;
           position: absolute;
-          top:70%;
-          left: 40% !important;
+          top:40%;
+          left: 20% !important;
            }
 
 
@@ -553,15 +558,15 @@ section{
           width:70% !important;
           height: auto;
           position: absolute;
-          top:80%;
-          left: 25%;
+          top: 37%;
+          left: 35%;
            }
 
 .freccia2{overflow:hidden;
           position: absolute;
-          top:90%;
-          left: 40%;
-          visibility: visible;}           
+          top:37%;
+          left: 35%;
+          visibility: visible !important;}           
                                      
 }
 
@@ -683,9 +688,23 @@ footer{
 
 
 
-.mdsign3 {position: absolute;
-          top:2%;
+.bhsign {position: absolute;
+          top:4%;
           left:0.001%;}
+
+
+.design {position: absolute;
+         top:4%;
+         left:63%;}          
+
+.jcsign{position: absolute;
+        top:43%;
+        left: 0.001%;}
+
+.brsign{position: absolute;
+        top:44%;
+        left:66%;}
+
 
 .hero3{
   height: 120vh;
@@ -704,16 +723,15 @@ footer{
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px;}
 
 
-
-}
 
 .hero_content3 h1 {color:#FFFFF0;}
 
 #hero_content3 {position: relative;
                 bottom: 15%}
+
 
 
 /*! CONTAINER PLAYLIST*/
@@ -724,14 +742,15 @@ footer{
 display: flex;
 flex-wrap: wrap;
 position: relative;
-top:25%;}
-
+top:25%;
+}
 
 .container_generi{
 
 display: flex;
 flex-wrap: wrap;
 position: relative;
+top: 25%;
 }
 
 
@@ -752,8 +771,6 @@ padding: 30px;
 padding: 45px;}
 
 
-
-
 .item p{
 
 font-family: 'Fira Sans', sans-serif;
@@ -765,9 +782,11 @@ position: relative;
 top: 10%;}
 
 
-.album{position: relative;
+.album{
+       position: relative;
        left:10%;
-       top:4%;}
+       top:4%;
+       visibility: visible;}
 
 .item_ciccio p{
 
@@ -775,32 +794,32 @@ top: 10%;}
   color: #FFFFF0;}
 
 
-
 @media (max-width: 767px){
 
 .item{
   flex-basis: 50%;
-  padding: 30px;
-}
+  padding: 30px;}
 
 .item_ciccio{
   flex-basis: 50%;
-  padding: 30px;
-}
+  padding: 30px;}
 
 
 .hero3{
-  height: 210vh;
-
-}
+  height: 275vh;}
 
 .hero_content3 {
   position: relative;
- bottom: 70px;
-}
+ bottom: -10px;}
+
+.hero_content3 h1{ font-size: 40px;}
 
 
+.container_generi p{font-size: 17px;}
+.container_annate p{font-size: 17px;}
+
 }
+
 
 
 .footer_playlist{
@@ -812,4 +831,10 @@ top: 10%;}
                   align-items: center;
                   position: absolute;
                   bottom: 0;}
+
+
+.textfooter3 {font-family: 'Fira Sans', sans-serif;
+                 color: #330066;
+                 font-size: 15px;
+                 }
 
