@@ -910,7 +910,7 @@ padding: 3px !important;
   top:4%!important;}
 
 .hero3{
-  height: 230vh!important;}  
+  height: 220vh!important;}  
 
 }             
 
@@ -926,7 +926,25 @@ padding: 3px !important;
   top:5%!important;}
 
 .hero3{
-  height: 600vh!important;}  
+  height: 305vh!important;}  
+
+
+.item{
+ 
+flex-basis: 33% !important;
+border: 10px solid #330066;
+border-radius: 25px;
+padding: 15px;
+}
+
+
+.item_ciccio{
+flex-basis: 90% !important;
+padding: 30px;
+padding: 45px;}
+
+.item_ciccio p{position: relative;
+               top:-30% !important;}
 
 }            
 
@@ -1283,7 +1301,7 @@ top: 10%;}
                 top:-8%;}  
 
  #hero_content5 h1{position: relative;
-                left:-5%;}               
+                left:-4%;}               
 
 .jcsign{position: absolute;
         bottom:92%;
