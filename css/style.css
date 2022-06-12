@@ -847,6 +847,29 @@ top: 10%;}
 }                 
 
 
+@media screen and (max-height: 990px){ 
+   
+
+#hero_content4{
+  
+  position: relative;
+  top:0%;}
+
+.hero3{
+  height: 220vh !important}
+
+
+.item{
+
+background: #FFFFF0 ;
+flex-basis: 25%;
+border: 15px solid #330066;
+border-radius: 25px;
+padding: 3px !important;
+}
+}                 
+
+
  @media screen and (max-height: 640px){ 
    
 
