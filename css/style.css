@@ -80,12 +80,12 @@ nav li .active{text-decoration: underline;}
 
 
 
-.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px; overflow: hidden}
+.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
 .nav li{display: block;}
 .nav li a{padding:15px 30px; font-size:20px; }
 
 
-#header {z-index: 1; overflow: hidden}
+#header {z-index: 1;}
 
 
 #main {z-index: 0; overflow: hidden}
