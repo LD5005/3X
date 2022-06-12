@@ -842,7 +842,7 @@ top: 10%;}
   top:0%;}
 
 .hero3{
-  height: 150vh !important}
+  height: 120vh !important}
 
 }                 
 
@@ -928,7 +928,109 @@ padding: 3px !important;
 .hero3{
   height: 600vh!important;}  
 
-}             
+}            
+
+
+
+@media screen and (min-width: 1366px){
+
+
+.hero3{
+  height: 120vh !important;
+  display: flex; width: 100%;align-items: center;
+  background: #330066;
+  background-size: cover;
+}
+
+
+.hero_content3{
+  
+  position: relative;
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;}
+
+
+
+.hero_content3 h1 {color:#FFFFF0;
+                   z-index: 1;
+                   position:relative;}
+
+
+#hero_content4 {position: relative;
+                  z-index: 1;
+                  }
+
+
+#hero_content5 {position: relative;
+                  bottom: 15%;
+                  z-index: 0;
+
+              }
+
+
+
+
+/*! CONTAINER PLAYLIST*/
+
+
+.container_annate{
+
+display: flex;
+flex-wrap: wrap;
+position: relative;
+top:25%;
+}
+
+.container_generi{
+
+display: flex;
+flex-wrap: wrap;
+position: relative;
+top: 25%;
+}
+
+
+.item{
+
+background: #FFFFF0 ;
+flex-basis: 20%;
+border: 10px solid #330066;
+border-radius: 25px;
+padding: 15px;
+}
+
+
+.item_ciccio{
+flex-basis: 20%;
+padding: 30px;
+padding: 45px;}
+
+
+.item p{
+
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+color: #330066 ;
+font-weight: bold;
+font-size: 30px;
+position: relative;
+top: 10%;}
+
+
+.album{
+       position: relative;
+       left:10%;
+       top:4%;
+       visibility: visible;}
+
+.item_ciccio p{
+
+  font-size: 20px;
+  color: #FFFFF0;}
+} 
 
 
 @media screen and (max-width: 1250px){
@@ -1147,7 +1249,7 @@ padding: 3px !important;
   padding: 10px;
   position: relative;
   left: 0%;
-  border: 5px solid #330066;
+  border: 6px solid #330066;
   border-radius: 20px;
   
   }
@@ -1179,6 +1281,9 @@ padding: 3px !important;
 
 #hero_content5{ position: relative;
                 top:-8%;}  
+
+ #hero_content5 h1{position: relative;
+                left:-5%;}               
 
 .jcsign{position: absolute;
         bottom:92%;
