@@ -1146,7 +1146,11 @@ padding: 3px !important;
   flex-basis: 50%;
   padding: 10px;
   position: relative;
-  left: 0%;}
+  left: 0%;
+  border: 5px solid #330066;
+  border-radius: 20px;
+  
+  }
 
 .item_ciccio{
   flex-basis:90%;
@@ -1157,7 +1161,7 @@ padding: 3px !important;
                 position: relative;
                 top: 0%;}
 
-.hero3{ height: 240vh !important;}
+.hero3{ height: 230vh !important;}
 
 .hero_content3 {
   position: relative;
