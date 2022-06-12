@@ -84,10 +84,10 @@ nav li .active{text-decoration: underline;}
 .nav li{display: block;}
 .nav li a{padding:15px 30px; font-size:20px }
 
-#header {z-index: 1}
+#header {z-index: 1; overflow: hidden}
 
 
-#main {z-index: 0}
+#main {z-index: 0; overflow: hidden}
 
 
 
@@ -134,9 +134,6 @@ main {overflow: hidden !important}
 
 .hero_content h1 {color:#FFFFF0; z-index: 0 !important}
 
-
-
-#main {overflow: hidden}
 
 
 
